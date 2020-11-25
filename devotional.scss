@@ -1,0 +1,93 @@
+@import "./variable";
+
+@import"./style/bootstrap/bootstrap.scss";
+html{
+    font-size: 10px;
+    @media screen and (min-width:768px) {
+        font-size: 13px;  
+    }
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url("/asset/devotional.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
+    .content{
+        // background-color: green;
+        height: 25rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        .write{
+            // background-color: red;
+         
+            width: 37rem;
+            text-align: center;
+            color: white;
+
+            h5{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+
+    
+.container {
+    // background-color: red;
+    .devotional {
+        // background-color: blue;
+        color: $secondary;
+        text-align: center;
+        font-size: 16rem;
+        margin-top: 6.3rem;
+    }
+    .response{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .date {
+            // background-color: green;
+            text-align: center;
+            i{
+                color: $primary;
+            }
+        }
+    }
+   
+    .wrap {
+        background-color: $light_blue;
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+       
+        }
+        .orange {
+            color: $secondary;
+            font-size: 1.8rem;
+            font-weight: 500;
+        }
+        .bold {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+    .text-content{
+        // background-color: blue;
+        font-size: 2rem;
+        font-weight: 500;
+        
+    }

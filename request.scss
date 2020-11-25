@@ -1,0 +1,86 @@
+@import "./variable.scss";
+@import "./style/bootstrap/bootstrap.scss";
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+html{
+    margin: 0;
+}
+header{
+background-image:url(/asset/prayer.png);
+ background-position: center;
+ background-size: cover;
+  width: 100%;
+  height:16rem;
+ 
+  
+  .wrap{
+      width: inherit;
+      height: inherit;
+      .para{
+        color: $sec_white;
+        text-align: center;
+      }
+  }
+   
+    
+}
+
+.prayer-req {
+    // background-color: brown;
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    .request {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        .inverse {
+            width: 15vw;
+            height: inherit;
+            font-size:4rem;
+            font-weight: 700;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            color: $light_grey;
+        }
+    }
+    .form-wrapper {
+        width: 100%;
+        form {
+            width:85%;
+            font-size: 1rem;
+            font-weight: 500;
+            label{
+                color:rgba(51, 51, 51, 0.7);;
+
+            }
+            input,textarea{
+                background: rgba(242, 242, 242, 1);
+                border:0px solid $light_grey;
+                border-radius: 3px;
+            }
+        
+            }
+            .name {
+                // background-color: green;
+                display: flex;
+                flex-direction: column;
+               
+            }
+            .phone {
+                display: flex;
+                flex-direction: column;
+               
+            }
+            .prayer {
+                display: flex;
+                flex-direction: column;
+               
+            }
+        }
+        
+    }
